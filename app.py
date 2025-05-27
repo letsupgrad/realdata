@@ -6,7 +6,7 @@ st.title("🔗 MongoDB Atlas Connection")
 
 # Input fields for URI components
 username = st.text_input("Username", value="sangita")
-password = st.text_input("Password", type="password", value="1234")
+password = st.text_input("Password", type="password", value="12345")
 cluster_url = st.text_input("Cluster URL", value="cluster0.625ka1m.mongodb.net")
 
 if st.button("Connect to MongoDB"):
